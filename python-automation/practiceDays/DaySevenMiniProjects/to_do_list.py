@@ -19,7 +19,7 @@ def view_tasks():
     else:
         print("\n📋 Your Tasks:")
         for index, task in enumerate(todo_list, start=1):
-            status = "✔️" if task["completed"] else "❌"
+            status = " ✔️ " if task["completed"] else " ❌ "
             print(f"{index}. {task['title']} [{status}]")
 
 # Step 4: Function to add a task
