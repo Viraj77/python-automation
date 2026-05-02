@@ -1,4 +1,4 @@
-from ..practiceDays.DaySixFunctionsAndScopes.prime_number import is_prime
+from prime_number import is_prime
 
 def test_is_prime():
     assert is_prime(2) == True, "2 should be prime"
